@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/demo/demo",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/detial/detial"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true,
+  "tabBar": {
+    "color": "#fff",
+    "selectedColor": "red",
+    "backgroundColor": "#0094ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/assets/tabs/home.png",
+        "selectedIconPath": "/assets/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/assets/tabs/message.png",
+        "selectedIconPath": "/assets/tabs/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "/assets/tabs/profile.png",
+        "selectedIconPath": "/assets/tabs/profile-active.png"
+      }
+    ]
+  }
+}

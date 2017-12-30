@@ -1,0 +1,37 @@
+<swiper class="slides" indicator-dots="true" indicator-color="#bcc0c9" indicator-active-color="#3a4861">
+  <swiper-item >
+    <image src="http://p1.meituan.net/deal/2846ed948e95eef4c4d50edaf52a483432023.jpg" mode="aspectFill"/>
+  </swiper-item>
+  <swiper-item >
+    <image src="http://p0.meituan.net/deal/24a2ca9c8785a9853d0d6a4e85309f2a415846.jpg" mode="aspectFill"/>
+  </swiper-item>
+  <swiper-item >
+    <image src="http://p1.meituan.net/deal/e93c9fa813fc2307074ae0df8328fed8105080.jpg" mode="aspectFill"/>
+  </swiper-item>
+</swiper>
+
+<view class="heading">
+  <text class="name">第1佳大鸡排(雷莎店)</text>
+  <text class="phone">电话：18732727277</text>
+  <text class="address">地址：任丘市裕华中路与会战道交叉口</text>
+  <text class="hours">营业时间：周一至周日10:00-21:00</text>
+  <view class="score" >100</view>
+</view>
+
+<view class="introduction" >
+  <text>便宜,好吃</text>
+</view>
+
+<view class="comments">
+  <view class="item">
+    <text class="name">走路带着风</text>
+    <text class="date">2017.06.06</text>
+    <text class="rating">85</text>
+    <text class="content">挺不错的</text>
+    <view class="images">
+      <image src="http://p1.meituan.net/deal/972029c0e0efe2a552a5f6632aa5ff77122075.jpg"/>
+    </view>
+  </view>
+</view>
+
+

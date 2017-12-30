@@ -1,0 +1,14 @@
+<swiper  class='slides' indicator-dots="true" autoplay="true" interval="2000" duration="500" circular="true">
+  <block>
+    <swiper-item wx:for="{{slides}}" wx:key="{{id}}" >
+      <image src="{{item.image}}" class="slide-image" width="355" height="150" />
+    </swiper-item>
+  </block>
+</swiper>
+<view class='grids'>
+
+<navigator class="items" wx:for="{{categories}}" wx:key="{{*this}}"  url="/pages/list/list?cat={{item.id}}" >
+<image  class='img' src="{{item.icon}}"/>
+<text>{{item.name}}</text>
+</navigator> 
+</view>
